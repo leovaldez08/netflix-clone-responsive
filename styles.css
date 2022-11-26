@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
+}
+
+#netflixlogo {
+  height: 23px;
+  position: absolute;
+  padding-left: 95px;
+  padding-top: 30px;
+}
+
+#navbar {
+  background-image: url(https://stackblitz.com/files/web-platform-6j1j99/github/Kalvium-Program/netflix-clone-boilerplate/main/assets/Title-Image.png);
+  color: black;
+  width: 1440px;
+  height: 1440px;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-top: 0px;
+}
+
+.container {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  padding-top: 28px;
+  padding-left: 170px;
+}
+.navcontent {
+  background-image: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.container2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 150px;
+  padding-left: 1250px;
+}
+.navcontent2 {
+  height: 18px;
+}
